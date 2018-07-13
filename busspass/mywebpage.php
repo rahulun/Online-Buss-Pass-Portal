@@ -133,7 +133,7 @@
 ?>
 
 <?php include("header.php"); ?>
-<nav class="navbar navbar-light bg-faded navbar-fixed-top " style="background-color: grey;">
+<nav class="navbar navbar-light bg-faded navbar-fixed-top " style="background-color: #8FC7D3   ;">
   
 
   
@@ -182,37 +182,37 @@
     
     <fieldset class="form-group">
 
-        <input class="form-control" type="email" name="email" placeholder="Your email address">
+        <input class="form-control" type="email" name="email" placeholder="Your email address" required>
         
     </fieldset>
     
     <fieldset class="form-group">
     
-        <input class="form-control" type="password" name="pass" placeholder="Password">
+        <input class="form-control" type="password" name="pass" placeholder="Password" required>
         
     </fieldset>
 	
 	<fieldset class="form-group">
     
-        <input class="form-control" type="text" name="user" placeholder="eg:yourname123456789">
+        <input class="form-control" type="text" name="user" placeholder="eg:yourname123456789" required>
         
     </fieldset>
 	
 	<fieldset class="form-group">
     
-        <input class="form-control" type="text" name="father" placeholder="Father's name">
+        <input class="form-control" type="text" name="father" placeholder="Father's name" required>
         
     </fieldset>
 	
 	<fieldset class="form-group">
     
-        <input class="form-control" type="date" name="dob" placeholder="yyyy-mm-dd">
+        <input class="form-control" type="date" name="dob" placeholder="yyyy-mm-dd" required>
         
     </fieldset>
 	
 	<fieldset class="form-group">
     
-        <input class="form-control" type="text" name="phone" placeholder="Phone Number">
+        <input class="form-control" type="text" name="phone" placeholder="Phone Number" required>
         
     </fieldset>
 	
@@ -220,13 +220,13 @@
 	
 	<fieldset class="form-group">
     
-        <input class="form-control" type="text" name="source" placeholder="eg:Source city">
+        <input class="form-control" type="text" name="source" placeholder="eg:Source city" required>
         
     </fieldset>
 	
 	<fieldset class="form-group">
     
-        <input class="form-control" type="text" name="destination" placeholder="eg:Destination city">
+        <input class="form-control" type="text" name="destination" placeholder="eg:Destination city" required>
         
     </fieldset>
 	
@@ -238,7 +238,7 @@
     
         <label>
     
-        <input type="checkbox" name="stayLoggedIn" value=1> Continue
+        <input type="checkbox" name="stayLoggedIn" value=1><span style = "color:blue;"> Continue </span>
             
         </label>
         
@@ -262,13 +262,13 @@
     
     <fieldset class="form-group">
 
-        <input class="form-control" type="email" name="email" placeholder="Your email address">
+        <input class="form-control" type="email" name="email" placeholder="Your email address" required>
         
     </fieldset>
     
     <fieldset class="form-group">
     
-        <input class="form-control"type="password" name="pass" placeholder="Password">
+        <input class="form-control"type="password" name="pass" placeholder="Password" required>
         
     </fieldset>
     
