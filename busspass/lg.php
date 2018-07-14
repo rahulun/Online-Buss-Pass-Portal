@@ -15,10 +15,10 @@
 	
 ?>
 
-<nav class="navbar navbar-light bg-faded navbar-fixed-top " style="background-color: 2F2B2B">
+<nav class="navbar navbar-light bg-faded navbar-fixed-top " style="background-color: #8FC7D3  ">
   
 
-  <a class="navbar-brand" style="color: grey" href="#">Check In!</a>
+  
 
     <div class="pull-xs-right">
       <a href ='ix.php?logout=1'>
@@ -234,21 +234,20 @@ $query = "SELECT `email`, `user`, `father`, `dob`, `phone`, `source`, `destinati
 
 
 ?>
-<center>
+
 <h1 style= "color:black; font-size:50px;">Update Passenger details:</h1><br>
 <form method = "post">
 
-    <input name="email" type="text" placeholder="Email address"><br><br>
+  <h2 style = "color:black;">Email of passenger: </h2><input name="email" type="text" placeholder="Email address" required>
     
-    <input name="busid" type="text" placeholder="Bus id"><br><br>
+  <h2 style = "color:black;"> Busid:</h2> <input name="busid" type="text" placeholder="Bus id" required><br><br>
 
-    <input name="valid" type="date" placeholder="Validity"><br><br>
+    <h2 style = "color:black;">Expiry date of pass:</h2> <input name="valid" type="date" placeholder="Validity" required><br><br>
 
-    <input name="charges" type="text" placeholder="Charges"><br><br>
+  <h2 style = "color:black;" >Charges of pass: </h2><input name="charges" type="text" placeholder="Charges" required><br><br>
 
-    <input name="num" type="number" placeholder="admin unique number"><br><br>
+  <h2 style = "color:black;" >unique no. </h2><input name="num" type="number" placeholder="admin unique number" required><br><br>
  
     <input type="submit" value = "UPDATE">
 
 </form>
-</center>
