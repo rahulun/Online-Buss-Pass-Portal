@@ -15,12 +15,13 @@
 	
 ?>
 
-<nav class="navbar navbar-light bg-faded navbar-fixed-top " style="background-color: 2F2B2B">
+<nav class="navbar navbar-light bg-faded navbar-fixed-top " style="background-color: #8FC7D3    ">
   
 
-  <a class="navbar-brand" style="color: grey" href="#">Check In!</a>
+  
 
     <div class="pull-xs-right">
+    	
       <a href ='mywebpage.php?logout=1'>
         <button class="btn btn-primary-outline fa fa-thumbs-up" type="submit"><span style="color:white">Logout</span></button></a>
     </div>
@@ -140,7 +141,7 @@ $query = "SELECT `user`, `father`, `dob`, `phone`, `source`, `destination`, `bus
 	</style>
 </head>
 <body>
-	<h1>See Your Buss Pass Info below: </h1>
+	<h1>See Your Buss Pass Info below: </h1><br><br>
 	<table class="data-table">
 		
 		<thead>
@@ -177,20 +178,7 @@ $query = "SELECT `user`, `father`, `dob`, `phone`, `source`, `destination`, `bus
 					<td>'.$row['charges'].'</td>
 
 					
-				</tr><br><br>
-				
-				<div id="color">
-				
-				<strong style="font-size:20px; color:black;"><p >Name :  <span style="font-size:25px;" >'.$row['user'].'</span></p></strong>
-				<strong style="font-size:20px;  color:black;"><p >Father name :  <span  style="font-size:25px;">'.$row['father'].'</span></p></strong>
-				<strong style="font-size:20px;  color:black;"><p >Date of birth :  <span  style="font-size:25px;">'.$row['dob'].'</span></p></strong>
-				<strong style="font-size:20px;  color:black;"><p >Phone no. :  <span  style="font-size:25px;">'.$row['phone'].'</span></p></strong>
-				<strong style="font-size:20px;  color:black;"><p >Source city :  <span  style="font-size:25px;">'.$row['source'].'</span></p></strong>
-				<strong style="font-size:20px;  color:black;"><p >Destination city :  <span  style="font-size:25px;">'.$row['destination'].'</span></p></strong>
-				<strong style="font-size:20px;  color:black;"><p >bussid :  <span  style="font-size:25px;">'.$row['busid'].'</span></p></strong>
-				<strong style="font-size:20px;  color:black;"><p >Expiry date :  <span  style="font-size:25px;">'.$row['valid'].'</span></p></strong>
-				<strong style="font-size:20px;  color:black;"><p >Fees :  <span  style="font-size:25px;">'.$row['charges'].'</span></p></strong>
-				</div>
+				</tr>
 				
 				
 				
