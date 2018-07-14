@@ -18,7 +18,7 @@ background-color:#F6F1F1  ;
  
 
 
-  <nav class="navbar navbar-light bg-faded navbar-fixed-top " style="background-color: grey;">
+  <nav class="navbar navbar-light bg-faded navbar-fixed-top " style="background-color: #8FC7D3    ;">
   
 
   
