@@ -1263,7 +1263,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"Subm
 </head>
 <body>
 
-<nav class="navbar navbar-light bg-faded navbar-fixed-top " style="background-color: grey;">
+<nav class="navbar navbar-light bg-faded navbar-fixed-top " style="background-color: #8FC7D3    ;">
   
 
   
